@@ -1,3 +1,4 @@
+include ':chapter_02'
 include ':chapter_01'
 include ':app'
 rootProject.name = "OpenGL_Study"
