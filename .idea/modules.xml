@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenGL_Study.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenGL_Study.iml" group="OpenGL_Study" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="OpenGL_Study/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter_01/chapter_01.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter_01/chapter_01.iml" group="OpenGL_Study/chapter_01" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter_02/chapter_02.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter_02/chapter_02.iml" group="OpenGL_Study/chapter_02" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter_03/chapter_03.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter_03/chapter_03.iml" group="OpenGL_Study/chapter_03" />
     </modules>
   </component>
 </project>

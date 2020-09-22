@@ -6,45 +6,18 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c61f65e3-e6cc-4327-b28b-513fab192a8b" name="Default Changelist" comment="feat: README">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/chapter_02/chapter_02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/androidTest/java/com/wepon/chapter_02/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/java/com/wepon/chapter_02/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_02/src/test/java/com/wepon/chapter_02/ExampleUnitTest.java" afterDir="false" />
+    <list default="true" id="c61f65e3-e6cc-4327-b28b-513fab192a8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/chapter_03/chapter_03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/src/main/java/com/wepon/chapter_03/AirHockeyRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/src/main/java/com/wepon/chapter_03/utils/ShaderHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/src/main/java/com/wepon/chapter_03/utils/TextResourceReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/src/main/res/raw/simple_fragment_shader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_03/src/main/res/raw/simple_vertex_shader.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
@@ -53,11 +26,59 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/chapter_02/chapter_02.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_01/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_01/src/main/java/com/wepon/chapter_01/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_01/src/main/java/com/wepon/chapter_01/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/wepon/opengl_study/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wepon/opengl_study/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/wepon/opengl_study/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/androidTest/java/com/wepon/chapter_02/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/androidTest/java/com/wepon/chapter_02/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/java/com/wepon/chapter_02/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/java/com/wepon/chapter_03/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_02/src/test/java/com/wepon/chapter_02/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_03/src/test/java/com/wepon/chapter_02/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +86,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CUY0219617004404" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R28M705F17L" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -168,7 +189,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter_01" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="chapter_01" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="chapter_01" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -220,7 +241,7 @@
       </method>
     </configuration>
     <configuration name="chapter_02" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="chapter_02" />
+      <module name="chapter_03" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -296,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600087543313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 第一单，准备开始">
+      <created>1600693139362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600693139362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,18 +366,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Init." />
     <MESSAGE value="feat: README" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: README" />
+    <MESSAGE value="feat: 第一单，准备开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 第一单，准备开始" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1600087895951">
+    <state x="549" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774813704">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state x="709" y="267" key="#com.intellij.ide.util.MemberChooser/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600087895951" />
+    <state x="549" y="354" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600774813704" />
+    <state x="709" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1600775501405">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="709" y="267" key="#com.intellij.ide.util.MemberChooser/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600775501405" />
     <state x="709" y="267" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1042@0.23.1792.1042" timestamp="1600087769169" />
-    <state x="458" y="148" key="CommitChangelistDialog2" timestamp="1600692060224">
+    <state x="458" y="148" key="CommitChangelistDialog2" timestamp="1600693139093">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state x="458" y="148" key="CommitChangelistDialog2/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600692060224" />
+    <state x="458" y="148" key="CommitChangelistDialog2/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600693139093" />
     <state x="458" y="148" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1600087543173" />
     <state x="180" y="117" key="DiffContextDialog" timestamp="1600671354801">
       <screen x="0" y="23" width="1792" height="1042" />
@@ -363,21 +396,25 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="607" y="257" key="Github.UntrackedFilesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1600086890149" />
-    <state width="1750" height="275" key="GridCell.Tab.0.bottom" timestamp="1600334728576">
+    <state width="834" height="285" key="GridCell.Tab.0.bottom" timestamp="1600779015376">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
+    <state width="834" height="285" key="GridCell.Tab.0.bottom/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600779015376" />
     <state width="1750" height="275" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600334728576" />
-    <state width="1750" height="275" key="GridCell.Tab.0.center" timestamp="1600334728575">
+    <state width="834" height="285" key="GridCell.Tab.0.center" timestamp="1600779015375">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
+    <state width="834" height="285" key="GridCell.Tab.0.center/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600779015375" />
     <state width="1750" height="275" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600334728575" />
-    <state width="1750" height="275" key="GridCell.Tab.0.left" timestamp="1600334728574">
+    <state width="834" height="285" key="GridCell.Tab.0.left" timestamp="1600779015375">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
+    <state width="834" height="285" key="GridCell.Tab.0.left/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600779015375" />
     <state width="1750" height="275" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600334728574" />
-    <state width="1750" height="275" key="GridCell.Tab.0.right" timestamp="1600334728576">
+    <state width="834" height="285" key="GridCell.Tab.0.right" timestamp="1600779015376">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
+    <state width="834" height="285" key="GridCell.Tab.0.right/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600779015376" />
     <state width="1750" height="275" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600334728576" />
     <state x="608" y="262" key="RollbackChangesDialog" timestamp="1600692630644">
       <screen x="0" y="23" width="1792" height="1042" />
@@ -395,9 +432,9 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="548" y="301" width="695" height="486" key="find.popup/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600088754025" />
-    <state x="561" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1600692889008">
+    <state x="561" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1600777595317">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state x="561" y="254" width="670" height="676" key="search.everywhere.popup/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600692889008" />
+    <state x="561" y="254" width="670" height="676" key="search.everywhere.popup/-2560.-148.2560.1417/0.23.1792.1042@0.23.1792.1042" timestamp="1600777595317" />
   </component>
 </project>
