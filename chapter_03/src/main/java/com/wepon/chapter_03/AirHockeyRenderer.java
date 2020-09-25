@@ -63,7 +63,7 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
     public AirHockeyRenderer(Context context) {
         this.context = context;
 
-        // 顶点
+        // 顶点 unused
         float[] tableVertices = {
                 0f, 0f,
                 0f, 14f,
@@ -72,26 +72,44 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
         };
 
         // 三角形
-        float[] tableVerticesWithTriangles = {
-                0f, 0f,
-                9f, 14f,
-                0f, 14f,
+//        float[] tableVerticesWithTriangles = {
+//                0f, 0f,
+//                9f, 14f,
+//                0f, 14f,
+//
+//                0f, 0f,
+//                9f, 0f,
+//                9f, 14f,
+//
+//                // Line 1
+//                0f, 7f,
+//                9f, 7f,
+//
+//                // Mallets
+//                4.5f, 2f,
+//                4.5f, 12f
+//        };
 
-                0f, 0f,
-                9f, 0f,
-                9f, 14f,
+        float[] tableVerticesWithTriangles = {
+                -0.5f, -0.5f,
+                0.5f, 0.5f,
+                -0.5f, 0.5f,
+
+                -0.5f, -0.5f,
+                0.5f, -0.5f,
+                0.5f, 0.5f,
 
                 // Line 1
-                0f, 7f,
-                9f, 7f,
+                -0.5f, 0f,
+                0.5f, 0f,
 
                 // Mallets
-                4.5f, 2f,
-                4.5f, 12f
+                0f, -0.25f,
+                0f, 0.25f
         };
 
         vertexData = ByteBuffer
-                .allocate(tableVerticesWithTriangles.length * BYTES_PER_FLOAT)
+                .allocateDirect(tableVerticesWithTriangles.length * BYTES_PER_FLOAT)
                 .order(ByteOrder.nativeOrder())
                 .asFloatBuffer();
 
