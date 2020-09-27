@@ -1,10 +1,11 @@
-package com.wepon.chapter_03;
+package com.wepon.opengles;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 
-import com.wepon.chapter_03.utils.ShaderHelper;
-import com.wepon.chapter_03.utils.TextResourceReader;
+import com.wepon.opengles.utils.ShaderHelper;
+import com.wepon.opengles.utils.TextResourceReader;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -18,15 +19,14 @@ import static android.opengl.GLES20.GL_FLOAT;
 import static android.opengl.GLES20.GL_LINES;
 import static android.opengl.GLES20.GL_POINTS;
 import static android.opengl.GLES20.GL_TRIANGLES;
-import static android.opengl.GLES20.GL_TRIANGLE_FAN;
 import static android.opengl.GLES20.glClear;
 import static android.opengl.GLES20.glClearColor;
 import static android.opengl.GLES20.glDrawArrays;
 import static android.opengl.GLES20.glEnableVertexAttribArray;
+import static android.opengl.GLES20.glGetAttribLocation;
 import static android.opengl.GLES20.glGetUniformLocation;
 import static android.opengl.GLES20.glUniform4f;
 import static android.opengl.GLES20.glUseProgram;
-import static android.opengl.GLES20.glVertexAttrib1f;
 import static android.opengl.GLES20.glVertexAttribPointer;
 import static android.opengl.GLES20.glViewport;
 
@@ -146,6 +146,9 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
 
         // 程序链接成功后，查这个uniform的位置
         uColorLocation = glGetUniformLocation(program, U_COLOR);
+        // 查这个attribute的位置，之前居然少写了也没出问题.... 因为这里面得到的值都是0
+        aPositionLocation = glGetAttribLocation(program, A_POSITION);
+
 
         // 表示从开着开始读
         vertexData.position(0);

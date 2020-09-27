@@ -1,4 +1,4 @@
-package com.wepon.chapter_03;
+package com.wepon.opengles;
 
 import androidx.appcompat.app.AppCompatActivity;
 

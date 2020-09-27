@@ -1,4 +1,4 @@
-package com.wepon.chapter_03.utils;
+package com.wepon.opengles.utils;
 
 
 import android.content.Context;
