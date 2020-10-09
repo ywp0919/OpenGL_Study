@@ -1,3 +1,4 @@
+include ':chapter_07'
 include ':chapter_06'
 include ':chapter_05'
 include ':chapter_04'
