@@ -45,7 +45,8 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
     private TextureShaderProgram textureProgram;
     private ColorShaderProgram colorProgram;
 
-    private int texture;
+    private int texture_0;
+    private int texture_1;
 
     public AirHockeyRenderer(Context context) {
         this.context = context;
@@ -64,7 +65,9 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
         textureProgram = new TextureShaderProgram(context);
         colorProgram = new ColorShaderProgram(context);
 
-        texture = TextureHelper.loadTexture(context, R.drawable.air_hockey_surface);
+        texture_0 = TextureHelper.loadTexture(context, R.drawable.air_hockey_surface);
+
+        texture_1 = TextureHelper.loadTexture(context, R.drawable.awesomeface);
     }
 
     @Override
@@ -99,7 +102,9 @@ public class AirHockeyRenderer implements GLSurfaceView.Renderer {
 
         // Draw the table.
         textureProgram.useProgram();
-        textureProgram.setUniforms(projectionMatrix, texture);
+        textureProgram.setUniforms(projectionMatrix, texture_0,0);
+        textureProgram.setUniforms(projectionMatrix, texture_1,1);
+
         table.bindData(textureProgram);
         table.draw();
 

@@ -11,7 +11,8 @@ public class ShaderProgram {
     // Uniform constants
 
     protected static final String U_MATRIX = "u_Matrix";
-    protected static final String U_TEXTURE_UNIT = "u_TextureUnit";
+    protected static final String U_TEXTURE_UNIT_0 = "u_TextureUnit_0";
+    protected static final String U_TEXTURE_UNIT_1 = "u_TextureUnit_1";
 
 
     // Attribute constants
